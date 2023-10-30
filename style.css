@@ -24,6 +24,12 @@ header .logo
   text-transform: uppercase;
   cursor: pointer;
 }
+
+.logo {
+    width: 200px;
+    height: 80px;
+}
+
 .toggle
 {
   position: relative;
