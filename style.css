@@ -191,6 +191,21 @@ header .logo
   color: #03a9f4; 
 }
 
+.contact-info{
+    color: #fff;
+}
+
+.contact-info td{
+    padding-right:10px;
+}
+.contact-info img{
+    filter: invert(1);
+}
+
+.map{
+    z-index:1000;
+}
+
 @media (max-width: 991px)
 {
   .showcase,
