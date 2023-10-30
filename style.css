@@ -215,7 +215,7 @@ header .logo
 .products-container{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    grid-gap: 5px;
+    grid-gap: 20px;
 }
 
 .products-container > div {
@@ -251,11 +251,11 @@ header .logo
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.5s linear;
+    color:#111;
 }
 #each-product-info p{
     font-size: 0.5em;
     text-align: justify;
-    color: #fff;
     position: absolute;
     word-break: break-all;
     margin-top:-170px;
@@ -309,3 +309,30 @@ header .logo
         padding-top:140px;
     }
 }
+
+
+h1::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  h1:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  h1::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: hsl(200 100% 80%);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+  
+  h1 {
+    position: relative;
+    font-size: 5rem;
+  }
