@@ -259,7 +259,7 @@ header .logo
     position: absolute;
     word-break: break-all;
     margin-top:-170px;
-    height:170px;
+    height:180px;
     color:#fff;
     visibility: hidden;
     opacity: 0;
@@ -295,4 +295,17 @@ header .logo
   {
     font-size: 2em;
   }
+}
+
+@media (max-width: 450px)
+{
+    .products-container{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    #each-product{
+        height:380px;
+    }
+    .products{
+        padding-top:140px;
+    }
 }
