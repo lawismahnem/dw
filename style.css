@@ -148,6 +148,7 @@ header .logo
   background: #191919;
   padding:50px;
   border-radius: 20px;
+  box-shadow: 10px 10px #ffce00;
 }
 
 .text-about h2
