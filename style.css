@@ -138,6 +138,43 @@ header .logo
 {
   letter-spacing: 6px;
 }
+
+.text-about
+{
+  position: relative;
+  z-index: 10;
+  max-width:700px;
+  margin:0 auto;
+  background: #191919;
+  padding:50px;
+  border-radius: 20px;
+}
+
+.text-about h2
+{
+  font-size: 3em;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text-about h3
+{
+  font-size: 4em;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text-about p
+{
+  font-size: 1.1em;
+  color: #fff;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
+
 .social
 {
   position: absolute;
@@ -206,6 +243,7 @@ header .logo
 
 .map{
     z-index:1000;
+    padding-top: 50px;
 }
 
 .product-nav{
@@ -368,7 +406,7 @@ h1::before {
   }
   
   .card::after {
-    content: "CORSAIR";
+    content: "Digitalwraps";
     position: absolute;
     bottom: 0;
     left: 0;
