@@ -15,25 +15,27 @@
             <div class="product-nav">Digitalwraps works</div>
             <div class="products-container">
                 <script>
-                    fetch("data.json")
+                      fetch("data.json")
                         .then(response => response.json())
                         .then(data =>{
                             for (var i = 0; i<data.product.length; i++){
                         let pname = data.product[i].p_name;
                         let pdetails = data.product[i].p_details;
                         let imgid = data.product[i].p_img_id;
-                            document.querySelector(".products-container").innerHTML += `
-                            <div id="each-product">
-                            <img src="media/product/${imgid}.jpg" alt="">
-                         <div id="each-product-info">
-                            <h1>${pname}</h1><p>${pdetails}</p>
-                         </div>
-                </div>
-                </div>`;
-                    }
+                            document.querySelector(".products-container").innerHTML += `<div class="card">
+                            <div class="imgBox">
+                                <img src="media/product/${imgid}.jpg" alt="mouse corsair" class="mouse">
+                            </div>
+                            <div class="contentBox">
+                                <h3>${pname}</h3>
+                                <h2 class="price"><small>${pdetails}</small></h2>
+                                <a href="https://www.facebook.com/messages/t/126502160541970" class="contact" target="_blank">Contact Us</a>
+                            </div>
+                        </div>`;
+                         }
                         })
                 </script>
-                </div>    
+            </div>    
             </div>
             </div>
          </div>

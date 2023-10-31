@@ -7,25 +7,73 @@
         },
         {
             "p_name": "Basketball Jersey",
-            "p_details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, illum? Deleniti veritatis aliquam ipsa exercitationem. Error autem distinctio similique eos dolorum adipisci cum quas quisquam, atque voluptatem fugiat et magnam!",
+            "p_details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, ",
             "p_img_id": "4"
         },
         {
             "p_name": "Work Jersey",
-            "p_details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, illum? Deleniti veritatis aliquam ipsa exercitationem. Error autem distinctio similique eos dolorum adipisci cum quas quisquam, atque voluptatem fugiat et magnam!",
+            "p_details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque",
             "p_img_id": "5"
         }
         ,
         {
             "p_name": "Basketball Jersey",
-            "p_details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, illum? Deleniti veritatis aliquam ipsa exercitationem. Error autem distinctio similique eos dolorum adipisci cum quas quisquam, atque voluptatem fugiat et magnam!",
+            "p_details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque,",
             "p_img_id": "2"
         }
         ,
         {
             "p_name": "Baseball Jersey",
-            "p_details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, illum? Deleniti veritatis aliquam ipsa exercitationem. Error autem distinctio similique eos dolorum adipisci cum quas quisquam, atque voluptatem fugiat et magnam!",
+            "p_details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque,",
             "p_img_id": "3"
+        }
+        ,
+        {
+            "p_name": "Baseball Jersey",
+            "p_details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque,",
+            "p_img_id": "3"
+        }
+        ,
+        {
+            "p_name": "Baseball Jersey",
+            "p_details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque,",
+            "p_img_id": "1"
+        }
+        ,
+        {
+            "p_name": "Baseball Jersey",
+            "p_details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque,",
+            "p_img_id": "5"
+        }
+        ,
+        {
+            "p_name": "Baseball Jersey",
+            "p_details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque,",
+            "p_img_id": "4"
+        }
+        ,
+        {
+            "p_name": "Baseball Jersey",
+            "p_details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque,",
+            "p_img_id": "3"
+        }
+        ,
+        {
+            "p_name": "Baseball Jersey",
+            "p_details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque,",
+            "p_img_id": "1"
+        }
+        ,
+        {
+            "p_name": "Baseball Jersey",
+            "p_details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque,",
+            "p_img_id": "5"
+        }
+        ,
+        {
+            "p_name": "Baseball Jersey",
+            "p_details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque,",
+            "p_img_id": "4"
         }
     ]
  }
