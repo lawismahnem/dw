@@ -94,6 +94,7 @@ header .logo
 {
   position: relative;
   z-index: 10;
+  top:20px;
 }
 
 .text h2
@@ -149,6 +150,7 @@ header .logo
   padding:50px;
   border-radius: 20px;
   box-shadow: 10px 10px #ffce00;
+  margin-top:100px;
 }
 
 .text-about h2
@@ -233,6 +235,7 @@ header .logo
 
 .contact-info{
     color: #fff;
+    padding-top:30px;
 }
 
 .contact-info td{
@@ -242,9 +245,10 @@ header .logo
     filter: invert(1);
 }
 
-.map{
+#map{
     z-index:1000;
-    padding-top: 50px;
+    margin-top: 50px;
+    height:400px;
 }
 
 .product-nav{
@@ -489,3 +493,75 @@ h1::before {
   small{
     font-size: 10px;
   }
+
+  /* input css style */
+
+/* $primary: #11998e;
+$secondary: #38ef7d;
+$white: #fff;
+$gray: #9b9b9b; */
+
+.submit{
+  margin:10px 10px 10px 0px;
+  padding:10px;
+  text-align: center;
+}
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+
+  &::placeholder {
+    color: transparent;
+  }
+
+  &:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+  }
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+.form__field:focus {
+  ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #11998e;
+    font-weight:700;    
+  }
+  padding-bottom: 6px;  
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #11998e,#38ef7d);
+  border-image-slice: 1;
+}
+/* reset input */
+.form__field{
+  &:required,&:invalid { box-shadow:none; }
+}
